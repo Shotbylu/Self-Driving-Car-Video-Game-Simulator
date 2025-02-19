@@ -21,7 +21,7 @@ I provide train/dev/test datasets for training and evaluating T.E.D.D 1107 model
 
 ##  Architecture
 
-T.E.D.D. 1104 is an End-To-End model. We approach the task as a classification task. 
+This is an End-To-End model. I approached the task as a classification task. 
 The input of the model is a sequence of 5 images, each image has been recorded with a 0.1s interval. 
 The outputs are the correct keys on the keyboard to press. Alternatively T.E.D.D. 1104 can also be trained with a regression objective using Xbox controller inputs. 
 
