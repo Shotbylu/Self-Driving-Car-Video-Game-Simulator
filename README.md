@@ -307,6 +307,6 @@ to disable this behaviour use the "--save_everything" flag.
 }
 ```
 
-Author: **Lungelo Sibisi**:  
+Author: **Lungelo Sibisi**
 
 
