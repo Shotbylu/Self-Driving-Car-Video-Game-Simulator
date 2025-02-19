@@ -1,5 +1,5 @@
 
-A supervised deep neural network that learns how to drive in video games. I am developing a supervised deep neural network that learns how to drive in video games. The main objective of this project is to create a model that can drive in Grand Theft Auto V. Given a waypoint, the model is expected to reach the destination as fast as possible while avoiding other cars, humans, and obstacles.
+I am developing a supervised deep neural network that learns how to drive in video games. The main objective of this project is to create a model that can drive in Grand Theft Auto V. Given a waypoint, the model is expected to reach the destination as fast as possible while avoiding other cars, humans, and obstacles.
 
 The model is trained using human-labeled data. I record the game and key inputs while playing, and this data is used to train the model.
 
