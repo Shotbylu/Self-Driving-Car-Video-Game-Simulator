@@ -16,58 +16,6 @@ video game.
 </tr>
 </table>
 
-# Pretrained T.E.D.D. 1104 models
-We provide pretrained T.E.D.D. 1104 models that you can use for real-time inference :)  
-The models are trained using 130 GB of human labelled data.  
-The model has been trained in first-person-view with a route to follow in the minimap.  
-The model has learned to drive a large variety of vehicles in different weather conditions (Sun, night, sunny, rain...).  
-For each model we provide the best and the last epoch.  
-See [Software and HOW-TO Section](https://github.com/ikergarcia1996/Self-Driving-Car-in-Video-Games#software-and-how-to) for instructions on how run the models.
-
-### T.E.D.D. 1104 XXL: 138M Parameters. 
-Download link: [See the Releases Tab](https://github.com/ikergarcia1996/Self-Driving-Car-in-Video-Games/releases)  
-Accuracy in the test datasets:
-
-|         |              Time              |   Weather  | Micro-Acc K@1 | Micro-Acc k@3 | Macro-Acc K@1 |
-|---------|:------------------------------:|:----------:|:-------------:|:-------------:|:-------------:|
-| City    |         :sun_with_face:        |   :sunny:  |     53.2      |     84.4      |     46.2      |
-| City    |         :sun_with_face:        | :umbrella: |     51.4      |     83.4      |     46.3      |
-| City    | :first_quarter_moon_with_face: |   :sunny:  |     54.3      |     85.6      |     46.3      |
-| City    | :first_quarter_moon_with_face: | :umbrella: |     47.3      |     82.3      |     49.9      |
-| Highway |         :sun_with_face:        |   :sunny:  |     72.7      |     97.7      |     40.6      |
-| Highway |         :sun_with_face:        | :umbrella: |     70.6      |     99.3      |     39.6      |
-| Highway | :first_quarter_moon_with_face: |   :sunny:  |     77.9      |     99.3      |     45.7      |
-| Highway | :first_quarter_moon_with_face: | :umbrella: |     70.9      |     97.6      |     30.8      |
-
-### T.E.D.D. 1104 M: 68M Parameters.
-Download link: [See the Releases Tab](https://github.com/ikergarcia1996/Self-Driving-Car-in-Video-Games/releases)  
-Accuracy in the test datasets:
-
-|         |              Time              |   Weather  | Micro-Acc K@1 | Micro-Acc k@3 | Macro-Acc K@1 |
-|---------|:------------------------------:|:----------:|:-------------:|:-------------:|:-------------:|
-| City    |         :sun_with_face:        |   :sunny:  |     52.9      |     84.1      |     43.1      |
-| City    |         :sun_with_face:        | :umbrella: |     49.9      |     81.3      |     42.2      |
-| City    | :first_quarter_moon_with_face: |   :sunny:  |     54.7      |     85.1      |     48.4      |
-| City    | :first_quarter_moon_with_face: | :umbrella: |     49.5      |     81.1      |     41.1      |
-| Highway |         :sun_with_face:        |   :sunny:  |     62.5      |     99.2      |     43.1      |
-| Highway |         :sun_with_face:        | :umbrella: |     71.9      |     99.3      |     39.2      |
-| Highway | :first_quarter_moon_with_face: |   :sunny:  |     79.4      |     99.3      |     45.3      |
-| Highway | :first_quarter_moon_with_face: | :umbrella: |     63.0      |     97.2      |     47.2      |
-###  T.E.D.D. 1104 S: 26M Parameters.
-Download link: [See the Releases Tab](https://github.com/ikergarcia1996/Self-Driving-Car-in-Video-Games/releases)  
-Accuracy in the test datasets:
-
-|         |              Time              |   Weather  | Micro-Acc K@1 | Micro-Acc k@3 | Macro-Acc K@1 |
-|---------|:------------------------------:|:----------:|:-------------:|:-------------:|:-------------:|
-| City    |         :sun_with_face:        |   :sunny:  |     51.0      |     83.0      |     46.3      |
-| City    |         :sun_with_face:        | :umbrella: |     49.0      |     82.5      |     45.2      |
-| City    | :first_quarter_moon_with_face: |   :sunny:  |     56.3      |     86.6      |     49.0      |
-| City    | :first_quarter_moon_with_face: | :umbrella: |     49.4      |     81.4      |     42.5      |
-| Highway |         :sun_with_face:        |   :sunny:  |     70.3      |      100      |     68.5      |
-| Highway |         :sun_with_face:        | :umbrella: |     71.2      |      100      |     37.6      |
-| Highway | :first_quarter_moon_with_face: |   :sunny:  |     80.9      |      100      |     49.1      |
-| Highway | :first_quarter_moon_with_face: | :umbrella: |     69.3      |      100      |     61.1      |
-
 # Datasets
 We provide train/dev/test datasets for training and evaluating T.E.D.D 1107 models:
 - Train Dataset (~130Gb): Coming soon... 
