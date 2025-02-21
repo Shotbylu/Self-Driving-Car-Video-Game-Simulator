@@ -13,7 +13,7 @@ While the focus is on self-driving cars and the video game Grand Theft Auto V, t
 </table>
 
 # Datasets
-I provide train/dev/test datasets for training and evaluating T.E.D.D 1107 models:
+Train/dev/test datasets for training and evaluating the models:
 - Train Dataset (~130Gb): Coming soon... 
 - Dev Dataset (~495Mb): [Download Dev+Test datasets](https://drive.google.com/file/d/1SutVGsQKg0mDUkfGML1nBboLWi5e5_4E/view?usp=sharing).
 - Test Dataset (~539Mb): [Download Dev+Test datasets](https://drive.google.com/file/d/1SutVGsQKg0mDUkfGML1nBboLWi5e5_4E/view?usp=sharing).
